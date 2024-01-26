@@ -63,6 +63,7 @@ These should be explained in Markdown files with links to docs and/or examples.
 
 - [ ] Clean Mac OS scripts I use to liberate space
 - [x] Clean Docker
+- [x] Clean Redis
 - [ ] Citrix uninstaller
 - [ ] OneDrive uninstaller
 
