@@ -48,10 +48,9 @@ These should be explained in Markdown files with links to docs and/or examples.
 
 ## Docker compose
 
-- [ ] MariaDB MySQL docker compose
-- [ ] MariaDB MySQL docker compose
+- [x] PhpMyAdmin MySQL docker compose
 - [ ] Percona MySQL docker compose
-- [ ] PhpMyAdmin MySQL docker compose
+- [ ] MariaDB MySQL docker compose
 - [ ] Wordpress docker compose
 - [ ] Nginx docker compose (+ different configs)
 - [ ] Postgres docker compose

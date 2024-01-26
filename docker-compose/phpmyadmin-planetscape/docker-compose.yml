@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  planetscale:
+    image: bitnami/phpmyadmin:latest
+    container_name: phpmyadmin-planetscale  
+    ports:
+      - "8881:8080"
+      - "8841:8443"
+    env_file:
+      - "./.env"
+    environment:
+      - DATABASE_HOST=${DATABASE_HOST}
+      - PMA_HOST=${DATABASE_HOST}
+      - UPLOAD_LIMIT=${UPLOAD_LIMIT}
+      - DATABASE_SSL_VERIFY=no
+      - DATABASE_ENABLE_SSL=true
+    volumes:
+      - ./php.ini:/usr/local/etc/php/php.ini 
+
