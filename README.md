@@ -51,7 +51,7 @@ These should be explained in Markdown files with links to docs and/or examples.
 - [x] PhpMyAdmin MySQL docker compose
 - [ ] Percona MySQL docker compose
 - [ ] MariaDB MySQL docker compose
-- [ ] Wordpress docker compose
+- [x] Wordpress docker compose
 - [ ] Nginx docker compose (+ different configs)
 - [ ] Postgres docker compose
 - [ ] Directus docker compose

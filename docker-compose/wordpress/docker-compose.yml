@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  wordpress:
+    image: wordpress
+    container_name: wordpress-container
+    environment:
+      WORDPRESS_TABLE_PREFIX: ${WORDPRESS_TABLE_PREFIX}
+      WORDPRESS_DB_HOST: ${WORDPRESS_DB_HOST}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
+    ports:
+      - "8333:80"
+    volumes:
+      - ./www:/var/www/html
