@@ -62,6 +62,7 @@ These should be explained in Markdown files with links to docs and/or examples.
 ## Cleanup/Uninstaller scripts
 
 - [ ] Clean Mac OS scripts I use to liberate space
+- [x] Clean Docker
 - [ ] Citrix uninstaller
 - [ ] OneDrive uninstaller
 
