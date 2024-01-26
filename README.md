@@ -35,7 +35,7 @@ I still have things on my MacBook that are scattered around that I know I need t
 ## Brew Compose
 These should be explained in Markdown files with links to docs and/or examples.
 
-- [ ] redis
+- [x] redis
 - [ ] percona-server
 - [ ] pngcrush
 - [ ] dive
